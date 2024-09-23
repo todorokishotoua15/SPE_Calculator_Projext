@@ -63,22 +63,22 @@ public class App
         } while (cont == 1);
     }
 
-    private static double sqrt(double a) {
+    protected static double sqrt(double a) {
         double result = Math.sqrt(a);
         return result;
     }
-    private static int factorial(int a) {
+    protected static int factorial(int a) {
         int result = 1;
         for (int i = 1; i <= a; i++) {
             result *= i;
         }
         return result;
     }
-    private static double loge(double a) {
+    protected static double loge(double a) {
         double result = Math.log(a);
         return result;
     }
-    private static double power(double a, double b) {
+    protected static double power(double a, double b) {
         double result = Math.pow(a, b);
         return result;
     }
