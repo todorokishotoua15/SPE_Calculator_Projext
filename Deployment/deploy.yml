@@ -12,5 +12,10 @@
       service:
         name: docker
         state: started
+    - name: Removing calc container
+      docker_container:
+        name: calc
+        state: absent
+
     - name: Running container
       shell: docker run -it -d --name calc todorokishotoua15/calculator
