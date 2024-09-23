@@ -46,17 +46,17 @@ public class App
                 System.out.println("-------------------------------");
 
             }
-            else if (choice == 4) {
-                System.out.print("Enter the number : ");
-                double x = scan.nextDouble();
-                System.out.print("Enter the exponenet : ");
-                double b = scan.nextDouble();
-                double result = power(x,b);
-                System.out.println("-------------------------------");
-                System.out.println("The Result is : " + result);
-                System.out.println("-------------------------------");
+            // else if (choice == 4) {
+            //     System.out.print("Enter the number : ");
+            //     double x = scan.nextDouble();
+            //     System.out.print("Enter the exponenet : ");
+            //     double b = scan.nextDouble();
+            //     double result = power(x,b);
+            //     System.out.println("-------------------------------");
+            //     System.out.println("The Result is : " + result);
+            //     System.out.println("-------------------------------");
 
-            }
+            // }
             else {
                 System.out.println("Not a valid choice");
             }
