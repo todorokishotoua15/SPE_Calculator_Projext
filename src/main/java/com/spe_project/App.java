@@ -61,6 +61,7 @@ public class App
                 System.out.println("Not a valid choice");
             }
         } while (cont == 1);
+        scan.close();
     }
 
     protected static double sqrt(double a) {
