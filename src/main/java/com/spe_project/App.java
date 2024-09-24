@@ -11,8 +11,8 @@ public class App
         do {
             System.out.println("1. Square root function");
             System.out.println("2. Factorial function");
-            System.out.println("3. Natural Logarithm function");
-            System.out.println("4. Power function");
+            // System.out.println("3. Natural Logarithm function");
+            // System.out.println("4. Power function");
             System.out.println("5. Exit");
             int choice = scan.nextInt();
             if (choice == 5) {
