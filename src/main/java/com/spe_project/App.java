@@ -11,8 +11,8 @@ public class App
         do {
             System.out.println("1. Square root function");
             System.out.println("2. Factorial function");
-            // System.out.println("3. Natural Logarithm function");
-            // System.out.println("4. Power function");
+            System.out.println("3. Natural Logarithm function");
+            System.out.println("4. Power function");
             System.out.println("5. Exit");
             int choice = scan.nextInt();
             if (choice == 5) {
@@ -37,26 +37,26 @@ public class App
                 System.out.println("-------------------------------");
 
             }
-            // else if (choice == 3) {
-            //     System.out.print("Enter the number : ");
-            //     double x = scan.nextDouble();
-            //     double result = loge(x);
-            //     System.out.println("-------------------------------");
-            //     System.out.println("The Result is : " + result);
-            //     System.out.println("-------------------------------");
+            else if (choice == 3) {
+                System.out.print("Enter the number : ");
+                double x = scan.nextDouble();
+                double result = loge(x);
+                System.out.println("-------------------------------");
+                System.out.println("The Result is : " + result);
+                System.out.println("-------------------------------");
 
-            // }
-            // else if (choice == 4) {
-            //     System.out.print("Enter the number : ");
-            //     double x = scan.nextDouble();
-            //     System.out.print("Enter the exponenet : ");
-            //     double b = scan.nextDouble();
-            //     double result = power(x,b);
-            //     System.out.println("-------------------------------");
-            //     System.out.println("The Result is : " + result);
-            //     System.out.println("-------------------------------");
+            }
+            else if (choice == 4) {
+                System.out.print("Enter the number : ");
+                double x = scan.nextDouble();
+                System.out.print("Enter the exponenet : ");
+                double b = scan.nextDouble();
+                double result = power(x,b);
+                System.out.println("-------------------------------");
+                System.out.println("The Result is : " + result);
+                System.out.println("-------------------------------");
 
-            // }
+            }
             else {
                 System.out.println("Not a valid choice");
             }
