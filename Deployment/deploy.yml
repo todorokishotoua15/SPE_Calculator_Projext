@@ -6,7 +6,7 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: todorokishotoua15/calculator:latest
+        name: todorokishotoua15/calc:latest
         source: pull
     - name: Start docker service
       service:
@@ -18,4 +18,4 @@
         state: absent
 
     - name: Running container
-      shell: docker run -it -d --name calc todorokishotoua15/calculator
+      shell: docker run -it -d --name calc todorokishotoua15/calc
