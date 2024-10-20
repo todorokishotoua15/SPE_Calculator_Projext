@@ -12,10 +12,10 @@
       service:
         name: docker
         state: started
-    - name: Removing calc container
-      docker_container:
-        name: calc
-        state: absent
+    - name: Stop docker containers
+      shell: 
+        docker stop calc
+        docker rmi todorokishotoua15/calc
 
     - name: Running container
       shell: docker run -it -d --name calc todorokishotoua15/calc
